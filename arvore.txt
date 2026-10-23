@@ -2,23 +2,23 @@ loja-lumina/
 ├── README.md                  
 ├── .gitignore                 
 ├── requirements.txt           
-├── .env.example               (depois)
+├── .env.example
 │
 ├── backend/
 │   ├── app.py                 
 │   ├── rotas.py               
 │   ├── armazenamento.py       
 │   ├── produtos.py            
-│   ├── estoque.py             (depois)
-│   ├── vendas.py              (depois)
-│   ├── pagamento.py           (depois)
-│   ├── rastreamento.py        (depois)
-│   └── caixa.py               (depois)
+│   ├── estoque.py
+│   ├── vendas.py
+│   ├── pagamento.py
+│   ├── rastreamento.py
+│   └── caixa.py
 │
 ├── frontend/
 │   ├── index.html             
-│   ├── carrinho.html          (depois)
-│   ├── dashboard.html         (depois)
+│   ├── carrinho.html
+│   ├── dashboard.html
 │   ├── css/
 │   │   └── estilo.css         
 │   └── js/
@@ -27,13 +27,13 @@ loja-lumina/
 │
 ├── data/
 │   ├── produtos.exemplo.json  
-│   └── vendas.exemplo.json    (depois)
+│   └── vendas.exemplo.json
 │
 ├── notebooks/
-│   └── analise_vendas.ipynb   (opcional, depois)
+│   └── analise_vendas.ipynb
 │
 ├── tests/
-│   └── test_produtos.py       (opcional, depois)
+│   └── test_produtos.py
 │
 └── docs/
     └── planejamento.md
